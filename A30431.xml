@@ -1,0 +1,681 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Europa lachrymans poema heroicum / Guglielmi Ballæi.</title>
+            <author>Ball, William.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1650</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 25 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A30431</idno>
+            <idno type="STC">Wing B589</idno>
+            <idno type="STC">ESTC R27890</idno>
+            <idno type="EEBO-CITATION">10261379</idno>
+            <idno type="OCLC">ocm 10261379</idno>
+            <idno type="VID">44734</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A30431)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 44734)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1376:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Europa lachrymans poema heroicum / Guglielmi Ballæi.</title>
+                  <author>Ball, William.</author>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>Apud Thomam Harperum,</publisher>
+                  <pubPlace>Londini :</pubPlace>
+                  <date>1650.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">lat</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Latin literature, Medieval and modern.</term>
+               <term>Latin poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-09</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2010-09</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="lat">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:44734:1"/>
+            <pb facs="tcp:44734:1" rendition="simple:additions"/>
+            <p>EUROPA LACHRYMANS: <hi>G<g ref="char:V">Ʋ</g>LIELMI BALLAEI</hi> ARMIGERI ANGLI, POEMA HEROICVM.</p>
+            <p>LONDINI, Apud THOMAM HAR<g ref="char:EOLhyphen"/>PERUM. M.DC.L.</p>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:44734:2" rendition="simple:additions"/>
+            <head>AUTHOR AD MUSAM:</head>
+            <l>
+               <hi>Muſa quid egisti? forſan violata peribis,</hi>
+            </l>
+            <l>
+               <hi>
+                  <g ref="char:V">Ʋ</g>t perit in Scythico frigore vitis agro;</hi>
+            </l>
+            <l>
+               <hi>
+                  <g ref="char:V">Ʋ</g>t perit in Lybico flos ſitiente ſolo;</hi>
+            </l>
+            <l>
+               <hi>
+                  <g ref="char:V">Ʋ</g>t perit in ſicco littore piſcis hians;</hi>
+            </l>
+            <l>
+               <hi>
+                  <g ref="char:V">Ʋ</g>t perit in vaſto gurgite feſſa volans.</hi>
+            </l>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:44734:2" rendition="simple:additions"/>
+            <head>
+               <hi>SERENISSIMAE DOMINAE, DOMINAE</hi> ANNAE Austriacae, apud Franeos Regi<g ref="char:EOLhyphen"/>va Regenti, D. D.</head>
+            <opener>
+               <salute>Sereniſſima Domina:</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">R</seg>Othomagi veſtrae Anno <hi>1643.</hi> aliquot pere<g ref="char:EOLhyphen"/>gi dies, in illis (quo numime inſtigante neſcio) circa Decembris medium, per Normaniae portus mandatum edidit veſtra Majeſtas, ut <hi>ne quis in Angli<g ref="char:EOLhyphen"/>am abſque veſtra licentia Regali ma<g ref="char:EOLhyphen"/>nu ſignata tranſiret,</hi> &amp;c. mirati ſunt complurimi tam Angli, quam veſtrates caeteri<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan>, pro<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> varis hominum na<g ref="char:EOLhyphen"/>turis hujuſmedi prohibitionis cauſam varie agitaverunt: rem enueleare non defeci, ut qui in Patriam Parentem il<g ref="char:EOLhyphen"/>lam innotare non potui non exiſtimare. Inquiſitione (in quantum valu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>) adhibita, poſt multa perpenſata, memet<g ref="char:EOLhyphen"/>ipſum illius mandati objectum, &amp; ſubjectum integrum, &amp; totale inveni; nec ob ullam aliam cauſam, niſi quod in libello quodam Domui Communium Parliamenti in Anglia dedicato Anno <hi>1641,</hi>
+               <note place="margin">Libello Propoſiti<g ref="char:EOLhyphen"/>onum de fortificati<g ref="char:EOLhyphen"/>onibus Regni.</note> inter alia <hi>attigi quaſi nimi<g ref="char:EOLhyphen"/>um grafſantem molem Franciae, quin Flandriae perdi<g ref="char:EOLhyphen"/>tionem, deque Richelaeo Car. veſtro tunc temporis vivo iliquod intuleram.</hi> Si quid Anglis Anglus peri<g ref="char:EOLhyphen"/>culi inſtare noluerim, ſi Flandriae propinquae perditionem admonuerim, quae culpa, quis error ineſſet? de Richelae<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſi tacuiſſem, non ſileret orbis, ut qui <hi>non videndo,</hi> ſed Regna, &amp; Reſpublicas <hi>dividendo</hi> pollebat: cujus me<g ref="char:EOLhyphen"/>moriam
+<pb facs="tcp:44734:3" rendition="simple:additions"/>abhorret Francia, herret Hiſpania, detestatur I<g ref="char:EOLhyphen"/>talia, odit Germania, Brittannia reſpuit; cunctis autem ſufficiat de gremia Regis in gremium Terrae cecidiſſe: de illo dum aliquid ſcripſs, in hoc erravi, quoniam non peni<g ref="char:EOLhyphen"/>tus deſcripſi. Iſtis vero tranſactis, modo veſtrae Maje<g ref="char:EOLhyphen"/>ſtati diſplicerent, meum non eſt revocare, vestrae vero eximiae prudentiae ſaltem tranſitum emente dare. In Angliam elapſus, quoſdam exinde verſicul<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s elaboravi; <hi>Europae lachrymantis,</hi> vel populi Europaei vere dicta<g ref="char:EOLhyphen"/>mina modico carmine contraxi, opuſculo utcun<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> meo, non alius, niſi pacem &amp; unionem generalem optandi ſcopus ineſt; quomagis <hi>Otomanorum</hi> vires concutere pravale<g ref="char:EOLhyphen"/>rem Imperium &amp; Reſpublica Chriſtiana. Hanc a me ſcintillam (eluceo nondum) vestrae Majestati dedicavi, ut quae vestris frementibus Gallis mel, &amp; concordiae melos intimare poteris: ex quo conamine manebis, vives Re<g ref="char:EOLhyphen"/>gina inclyta, pia, Augusta; de que ſperavit</p>
+            <closer>
+               <signed>Majestatis vestrae Obſervantiſſimus, <hi>GULIELMUS BALLAEUS, Anglus.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="5" facs="tcp:44734:3"/>
+            <head>
+               <hi>E<g ref="char:V">Ʋ</g>ROPA LACHRYMANS: Argumentum:</hi> EUROPA, FRANCIAE, HISPANIAE, MAGNAE BRITANNIAE, GERMA<g ref="char:EOLhyphen"/>NIAE, POLONIAE, HUNGARIAE, VENETIAE, <hi>&amp;</hi> HOLLANDIAE <hi>Con<g ref="char:EOLhyphen"/>cilio convocato, Diſcordiae illarum cauſas ar<g ref="char:EOLhyphen"/>guit, &amp; Diſſentiones reprehendit; cui ſigilla<g ref="char:EOLhyphen"/>tîm reſpondent.</hi>
+            </head>
+            <sp>
+               <speaker>EUROPA</speaker>
+               <stage>loquitur.</stage>
+               <l>QUid dabit immenſum profundere flentis in aequor</l>
+               <l>Flumina, languentis paſsîm manantia luctu,</l>
+               <l>Sic poſtquam Oceanus maeſtis ſe impleverat undis,</l>
+               <l>Turgidus umbrantes ſuperaret fluctibus Alpes?</l>
+               <l>Contemptam pacem violataque faedera, Gentes</l>
+               <l>Diviſas dextris lacerantes viſcera vidi,</l>
+               <l>Contuſas acies, confuſos ſanguine Cives,</l>
+               <l>Arma, pares animos, &amp; bella tonantia bellis.</l>
+               <l>Veſtra ſoror quorſum conturbat Francia mundum,</l>
+               <l>Vos mea Progenies, vos celſa Trophaea petentes</l>
+               <l>Victrices Natae quibus ipſa potentia ſubſtat?</l>
+               <l>Roma tuum diadema vetus ſit cauſa, reſultans</l>
+               <l>Francia praetendis, tendens Hiſpania velles;</l>
+               <l>Altera in alterius nimium eſt prolapſa ruinas:</l>
+               <l>
+                  <pb n="6" facs="tcp:44734:4" rendition="simple:additions"/>Perpetuumque times (forſan tibi Francia ſatum)</l>
+               <l>Quid niſi Martis opus pondus regnantis Iberi:</l>
+               <l>Hînc fertur tanto reſonare Brabantia bello;</l>
+               <l>Surgat ut Auſtriacus clamas Germania Caeſar;</l>
+               <l>Imperium periens vexaſti Suecia clade;</l>
+               <l>Dania verſata es Scyllam verſuſque Charibdim;</l>
+               <l>Pulchra Mahometo dominanti Hungaria ſervis;</l>
+               <l>Et ſervit tanquam tua Tranſilvania tecum;</l>
+               <l>Tu contenta tuis invicta Polonia conſtas;</l>
+               <l>Conſtas, at caveas paries dum proximus ardet;</l>
+               <l>Veſtrae luctantis, mea nata Britannia rebus</l>
+               <l>Propria corda terit variis diſcordia Gentis;</l>
+               <l>Haec ſunt nota tibi, tantorum Hollandia Nutrix;</l>
+               <l>Haeceine Religio (Natae?) mea pectora tundo.</l>
+            </sp>
+            <stage>Alloquitur</stage>
+            <sp>
+               <speaker>FRANCIA.</speaker>
+               <l>CElſa parens, veſtri nos compreſſere dolores;</l>
+               <l>At non cauſa latere queat, dum Hiſpania quondam</l>
+               <l>Tum mihi cum mundo dixit terrore ruinam:</l>
+               <l>Haud repetam tranſacta diû, ſed facta ſororis,</l>
+               <l>Quae ſaeclo conata fuit (ſi fata tuliſſent)</l>
+               <l>Terrarumque, Mariſque ſatîs ductura triumphos,</l>
+               <l>Praelia quae geſſit Belgarum SPINOLA campis?</l>
+               <l>Quale <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> fulmen Martis Bucquoius Heros?</l>
+               <l>Qualis GONSALVUS? quis P<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>PEN<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>MIUS audax?</l>
+               <l>TILLIUS &amp; qualis? quis fortis PICLOMINIIUS?</l>
+               <l>Faedera, bella ſimul, quae, qualia, quanta fuerunt,</l>
+               <l>Ac ſi ſola futura, foret tunc Auſtria mundus?</l>
+               <l>Olim quam forſan numen memorabile dicam;</l>
+               <l>Ultima Germanae miretur Regio nomen:</l>
+               <l>Quid niſi nec condet ſua proditione trophaea</l>
+               <l>Tota eſt Religio, &amp; Pietas; Fraus nulla ſororis;</l>
+               <l>Hinc Mediolanum retinet, Regnumque Navarrae,</l>
+               <l>Hinc Luſitanos tam marte atque arte ſubegit,</l>
+               <l>Quos cette cohibere queat, quin PERPIMIANUM.</l>
+               <l>
+                  <pb n="7" facs="tcp:44734:4"/>Pulchre aget, hand dubium ſaltem MONTZANTIUS Heros</l>
+               <l>Si alter, vel RUPELLA potens bellare valeret:</l>
+               <l>Queis ne ingrata forem dicam Germana quot annis</l>
+               <l>Theſauri Indiaci tranſmiſit Regia dona,</l>
+               <l>Noſtri nonnullis notum eſt Regale REALE:</l>
+               <l>Tranſeat! aſt Regni noſtri pia Sceptra tenere</l>
+               <l>Progeniem nollet ſacratam, fata datura</l>
+               <l>Francorum ingenti Genti majora, dederunt.</l>
+            </sp>
+            <stage>Alloquitur</stage>
+            <sp>
+               <speaker>HISPANIA.</speaker>
+               <l>ALma parens, magnos cogor renovare dolores,</l>
+               <l>Atque dare ingratae nimium reſponſa ſorori:</l>
+               <l>Quae mea cura fuit fluctus reſecare per aequor</l>
+               <l>Claſſibus, atque novum mundo ſubducere mundum;</l>
+               <l>Quae mea cura fuit Civiles condere Gentes,</l>
+               <l>Tollere Barbariem, ſacras tranſmittere Leges;</l>
+               <l>Quae mea cura fuit diris opponere Mauris,</l>
+               <l>Saevas Turcarum pugnaſque repellere pugnis;</l>
+               <l>Quae mea cura fuit tot fortia tollere caſtra,</l>
+               <l>Per quae veſtra (Parens) confinia tuta manerent?</l>
+               <l>Sit teſtes ſanguis noſter, ſudorque, laborque.</l>
+               <l>Aſt ſoror in me quid? mea quondam Hollandia caepit</l>
+               <l>(Nota eſt cauſa volenſque, valenſque) tumeſcere bellis:</l>
+               <l>Hane reducem volui (repetat ſua propria quaeque)</l>
+               <l>Per Mare, per terras, hinc tanta clade tot annis</l>
+               <l>Opprimor, atque premo, voluens diſcrimina Martis,</l>
+               <l>AETERNUM SIC VELLE POTENS —</l>
+               <l>Haud deſunt fraudes aſturae, haud pacta doloſa</l>
+               <l>Quae (tanquam Eloquium Francorum ſuave venenum)</l>
+               <l>Optima pacati corrumpunt faedera mundi.</l>
+               <l>Veſtrum, ſic noſtri quamvis ſacrata fuerunt,</l>
+               <l>Sancta &amp; jure ſuo: dicat contacta rubore</l>
+               <l>(Chriſtocola eſt novi quin maxima, prima ſororum)</l>
+               <l>Suecorum turbas quaenam inſtigavit at illa,</l>
+               <l>Undique Germanos immenſa clade prementes?</l>
+               <l>
+                  <pb n="8" facs="tcp:44734:5"/>Quoſnam progreſſus fecit Germana quot aunis,</l>
+               <l>Orbis &amp; imperii moderatrix nuper habenda?</l>
+               <l>Quid niſi I ſed ſiſtat; nondum ſpoliata trophaeis</l>
+               <l>Auſtria celſa patet, nec Iberia tota ſubacta eſt.</l>
+               <l>Aſt Rupellanis dedimus: ſic fertur; at aurum</l>
+               <l>An profertur ſic, tanquam fiducia Franco?</l>
+               <l>Turcarum turmas non littora noſtra tenebant</l>
+               <l>Accerſas,
+<note place="margin">Tempore Franciſci primi.</note> celſae tunc deridere parenti</l>
+               <l>Non placuit magnas voluenti pectore curas.</l>
+               <l>Nec dare convenit diſcordia ſemina cunctis</l>
+               <l>Chriſtocolis belli; ſed magna Brittannia forſan</l>
+               <l>Immemor haud maneat; nobis componere noſtra</l>
+               <l>Praeſtat, &amp; ingratae diſcernere facta ſororis;</l>
+               <l>Quam poſthac! celſae ſaltem Genitrieis honorem</l>
+               <l>Vellit ut interea mecum per ſaecula ſacrum</l>
+               <l>Conſervare, foret demum memorabile nomen.</l>
+            </sp>
+            <stage>Alloquitur</stage>
+            <sp>
+               <speaker>MAGNA BRITANIA.</speaker>
+               <l>ENdicam graviora, Parens, meliora ſed inde</l>
+               <l>Expectanda mihi, Auguſtiſſima fata ſuperſunt:</l>
+               <l>Candida ſed noſtri producent gaudia luctus,</l>
+               <l>Quae ſpero [Deus omne bonum] hac aetate novanda.</l>
+               <l>Volvitur interea mecum diſcordia Gentis;</l>
+               <l>Quanta ſuae, ſic tanta meae, quin Francia dicat</l>
+               <l>Quondam cauſa ſui noſtri nunc cauſa doloris.</l>
+               <l>Hujus enim nuper RICHELAEUS Scoto Britannes</l>
+               <l>[Religionis opus clarum quis credat?] in Anglos</l>
+               <l>Inſtimulans odio dixit; <hi>Sic vultis amici</hi>
+               </l>
+               <l>
+                  <hi>Francorum fortes robuſtam perdere Gentem?</hi>
+               </l>
+               <l>
+                  <hi>Inſigne Anglorum jam parto Rege wiumphans</hi>
+               </l>
+               <l>
+                  <hi>Creſcit ad aſtra decus, vestro<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> teguntur honore;</hi>
+               </l>
+               <l>
+                  <hi>Amplins &amp; veſtrum reſtat vix nomen in orbe:</hi>
+               </l>
+               <l>
+                  <hi>Nuper &amp; elatos Praelatos nostis corum</hi>
+               </l>
+               <l>
+                  <hi>In Calviniſtas; hoſtes qui quamvis habentur,</hi>
+               </l>
+               <l>
+                  <hi>Vos tamen immenſo nostri manſictis amore:</hi>
+               </l>
+               <l>
+                  <pb n="9" facs="tcp:44734:5" rendition="simple:additions"/>
+                  <hi>Inde jugum veſtrae cervici imponere nellem</hi>
+               </l>
+               <l>
+                  <hi>Anglos, pectore vos optarem opponere firmo:</hi>
+               </l>
+               <l>
+                  <hi>Quod valet; inter eos plures novi<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> paratos</hi>
+               </l>
+               <l>
+                  <hi>Enſe manu ſtricto, dum vultis, veſtra tueri</hi>
+               </l>
+               <l>
+                  <hi>Dogmata, jam<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> potens dominatur factio plebis:</hi>
+               </l>
+               <l>
+                  <hi>Nunquam ut deficient Franci cognoſcitis omnes,</hi>
+               </l>
+               <l>
+                  <hi>Nec deero ipſe modo vobis quocun<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> valebo.</hi>
+               </l>
+               <l>Talia multa ferens verbis, animoque recondens</l>
+               <l>Inſidias turpes ſaevo, tranſmiſit ad Anglos:</l>
+               <l>Sic dolor, atque dolus ſimul invaſere (feroces</l>
+               <l>Irae cognati dementis) viſcera noſtra;</l>
+               <l>Albion alba meo pateo ſubtincta cruore:</l>
+               <l>Hinc antiquus honos, hinc vis longaeva reſultans</l>
+               <l>In Francos quondam, tanquam moritura perirent;</l>
+               <l>Excelſam ſi non munirem faedere Gentem</l>
+               <l>(Artis opus magnum) venturo ut clareat aevo;</l>
+               <l>Hoc conabor ovans, alto ſint caetera fato.</l>
+            </sp>
+            <stage>Alloquitur</stage>
+            <sp>
+               <speaker>GERMANIA.</speaker>
+               <l>CAeſarea quamvis, Genitrix, orbata viderer</l>
+               <l>Majeſtate, tamen veteres retinere licebit</l>
+               <l>Relliquias, aquilaſque pares, &amp; nomen honoris:</l>
+               <l>His, &amp; Majeſtate frui certamine magno</l>
+               <l>Niſa laboravi, confuſo Marte per Urbes</l>
+               <l>Praeclaras graſſante meas; dum machina jactat</l>
+               <l>Collegae patres dicti, dum fulmina belli</l>
+               <l>Horrendi evolvunt reſonantia Calviniſtae.</l>
+               <l>His furor inſtimulans (an fas ſit dicere zelum?)</l>
+               <l>Arma miniſtravit, nomenque intentio habendi</l>
+               <l>Illis extenſum in terris per ſaecula cuncta:</l>
+               <l>HASSIACOS Mavorte feros, Suecoſque rapces</l>
+               <l>Inſtigarunt hi torrentes nempe furoris:</l>
+               <l>Auſtriacos illi validos, forteſque Bavaros</l>
+               <l>Propugnatores Romae, movere ſalutis</l>
+               <l>Spe (ſic arte valent) acies inferre cruentas</l>
+               <l>Principibus, populiſque meis, ſic ſanguine noſtro</l>
+               <l>
+                  <pb n="10" facs="tcp:44734:6"/>Danubii arva madent, ampli &amp; confinla Rheni.</l>
+               <l>Infandi armipotens complevit Francia belli</l>
+               <l>[Ira ſuperba vorat] paſſimque incendia fomes:</l>
+               <l>Imperii Diadema petit, petat illa ſed altum,</l>
+               <l>Et praeluſtre decus mecum remanebit in aevum:</l>
+               <l>(In terris, donec perfecto temporis Orbe,</l>
+               <l>Iſte ferox hoſtis divolvitur Antichriſtus)</l>
+               <l>Illius at Sceptrum dominans ALSATIA ſenſit,</l>
+               <l>Francorum Suecis immiſit &amp; illa cohortes:</l>
+               <l>Sanguine CAPETIO ſolium decorare laborat,</l>
+               <l>In nihil HASPURGI nomenque reducere tendit:</l>
+               <l>Pluribus at pacem ſimulans videatur amica,</l>
+               <l>Unquam necne foret credenda ſinonia proles?</l>
+               <l>Germanae caveant, caveat Germania ſecum,</l>
+               <l>Et domus Auſtriaca, ipſam ſuſtentare trophaeis</l>
+               <l>Praeſtabit celſis, dum brachia fortia tollit,</l>
+               <l>Quo minus inſidiae Francorum bella per Orbem</l>
+               <l>Inducant, turpes cunctiſque ſororibus iras.</l>
+            </sp>
+            <stage>Alloquitur</stage>
+            <sp>
+               <speaker>POLONIA.</speaker>
+               <l>UNdique, chara Parens, ſubeunda pericula rerum</l>
+               <l>Sunt mihi magnarum, dum ſanguinolenta manebit</l>
+               <l>TURCIA, dumque ferox Tartaria bella parabit,</l>
+               <l>Et vaſtis agitabit equos Muſcovia Campis.</l>
+               <l>Rara quies, ſi pace fruar, ſit mentis inermes</l>
+               <l>Haud monſtro juvenes, comites ſed Martis habere</l>
+               <l>Cogor; ago, ſic fata volunt: miſeranda potentum</l>
+               <l>Funera nunc doleo diſcernere ſtrata per Orbem,</l>
+               <l>Nedum cauſa fui, Bellatrix prona nec ullas</l>
+               <l>Suppetias miſi, queis noſtra clade perempti</l>
+               <l>Sanguine Chriſticolae vitam expirare gementes.</l>
+               <l>Agmina verſantur Mavortia noſtra quot annis</l>
+               <l>Perque domos, villaſque meas, umbroſaque rura,</l>
+               <l>Atque meos tantum contenta gravare colonos:</l>
+               <l>
+                  <pb n="11" facs="tcp:44734:6"/>Jurgia multoties culpavi ſaeva ſororum,</l>
+               <l>Ut quae bella gerunt de Religione tot omnes,</l>
+               <l>Cum ſint fallibiles, nimiumque errore laborant:</l>
+               <l>[Ens nihil AETERNO ſic diſcerneturab ACTU]</l>
+               <l>Noſtris alma parens concedo libera mentis</l>
+               <l>Amplecti, modo pace fruar, modo lege fruantur:</l>
+               <l>Francia nulla movet, nec Iberia celſa movebit</l>
+               <l>De Regno mecum, vel de pietate tumultus</l>
+               <l>In me Ruſſorum niſi Graeca caterva rebellet:</l>
+               <l>Armipotente manu confinia ſacra tueri</l>
+               <l>Si vellent, animoſa darem, ſatis altaque corda</l>
+               <l>Tela OTOMANIS nunc quae inferre &amp; ferre valerent:</l>
+               <l>Haec mea cura fuit pacemque ſororibus optans.</l>
+            </sp>
+            <stage>Alloquitur</stage>
+            <sp>
+               <speaker>SUECIA.</speaker>
+               <l>DE me, clara parens, ſunt plurima dicta per Orbem,</l>
+               <l>Atque a me nuper complurima facta fuerunt;</l>
+               <l>Quae Gentes, quae ſaecla canant: Romana ruina</l>
+               <l>Deſtinor a fato: quot terrae clade Gothorum,</l>
+               <l>Nec non Vandalico perierunt gurgite Regna?</l>
+               <l>Nec mutor: Romae nomen diſſolvere conor,</l>
+               <l>(Dureſco, Borealis enim, ſic ſanguine, caede)</l>
+               <l>Caeſareumque decus ſatis extirpare laboro.</l>
+               <l>Ad quid relliquias condet Germania ſecum</l>
+               <l>Monſtri, quodque triplex quondam produxerat Orbis?</l>
+               <l>Nonne patebit? enim dum conſummatio ſaecli,</l>
+               <l>Inſtat &amp; occaſus? gaudebit &amp; illa tenere</l>
+               <l>Ac ſi pondus iners magnum ſine corpore nomen</l>
+               <l>Haud paterer; ſed tela manu tentare juvaret,</l>
+               <l>Et luſtrare intus penetralia Germanorum:</l>
+               <l>Nec mihi defecere ipſi; quin Francia amica</l>
+               <l>Tam turmas equitum, quam belli munera nummos</l>
+               <l>Invitavit, &amp; illa fuit pars maxima mecum:</l>
+               <l>Auſtriacis ſociale jugum convenit utrique</l>
+               <l>
+                  <pb n="12" facs="tcp:44734:7"/>Vel dare, vel ſi non, ſaltem ſaevire liceret:</l>
+               <l>Aequum nec ne foret, dicat Calvinia proles,</l>
+               <l>Et queis ſufficiat nomen pietatis habere;</l>
+               <l>At nobis etiam conſtaret nomen honoris,</l>
+               <l>Quemque ſequor; petat alta potens altiſſima rerum</l>
+               <l>Sique cadam, noſtri tamen inſit gloria caſus;</l>
+               <l>Sin ſiſtam, claris gradior decorata triumphis.</l>
+            </sp>
+            <stage>Alloquitur</stage>
+            <sp>
+               <speaker>DANIA.</speaker>
+               <l>GErmanam certè, Genitrix, ſeptentrio ſolam</l>
+               <l>Haud genuit, quamvis validas animoſa loquelas</l>
+               <l>Jactat, dum nuper victricia limina figens,</l>
+               <l>Vix tamen Imperii creſcentia culmina condet.</l>
+               <l>Quas res antiquas monſtravit Suecia geſtas,</l>
+               <l>Dum quondam in Turcas licuit fabricare Trophaea?</l>
+               <l>Quid niſi lethiferas inſtruxit prava catervas,</l>
+               <l>Quas (bene confeſſa eſt) ſuſtentat Francia, &amp; amplos</l>
+               <l>Per Germanorum campos fera turba vagatur?</l>
+               <l>Italiam penetrare cupit. penetravit ut audax</l>
+               <l>(Haud videatur opus magnum) confinia noſtra,</l>
+               <l>Dum ſubito nec tela tuli, nec bella paravi.</l>
+               <l>Aſt quorſum ſoror arma capit? num Regia Virgo,</l>
+               <l>Vel Conjux ſi forte foret, diademate cincta,</l>
+               <l>Imperium (ſimul &amp; Regnum) moderabitur ingens?</l>
+               <l>Francia praepollet, cujuſque pediſſequa forſan</l>
+               <l>Suecia (nec decus exiguum) remanere cupivit:</l>
+               <l>Proſit! at illa diu ſaevis aſperima bellis</l>
+               <l>Imperii tandem ſpoliis deſiſtat onuſta:</l>
+               <l>Si modo reſpiciat claros ſincera triumphos,</l>
+               <l>Temneret indignos Gentis de ſanguine nummos;</l>
+               <l>TURCIA, vel talem peperit Tartaria morem.</l>
+               <l>Cedat; fama volat; cito jam diſcedat ab illa:</l>
+               <l>Aut nunc, aut nunquam tumulum cumulabit honoris.</l>
+            </sp>
+            <stage>
+               <pb n="13" facs="tcp:44734:7"/>
+               <hi>Alloquitur</hi>
+            </stage>
+            <sp>
+               <speaker>HUNGARIA.</speaker>
+               <l>DIva Parens, ſpoliata nimis tua filia ſupplex</l>
+               <l>A'te ſuppetias nativo jure petendas</l>
+               <l>Poſtulat, &amp; lachrymis orat relevare dolores.</l>
+               <l>Dum robur noſtrum vignit, dum à Marte valerem,</l>
+               <l>Splendida dum Regina domi mea Sceptra tenerem,</l>
+               <l>Saeva MAHOMETI confregi praelia pugnis:</l>
+               <l>Et pugnare queo, validis quin viribus audax</l>
+               <l>Conſervare mihi quae propugnacula reſtant</l>
+               <l>Conor, &amp; irrumpens Turcas infeſto cruentos.</l>
+               <l>Langueo quotidie at diris lacerata ruinis;</l>
+               <l>Ni mihi praeſidium Germania, nulla ſororum</l>
+               <l>Praebuit, aut tantis curis occurrit amica.</l>
+               <l>Nec mirum, mundum dum Francia vexat avara</l>
+               <l>Imperii, &amp; famae pietatiſque immemor omnis</l>
+               <l>Sola ſibi acquirit Terras, Urbeſque ſororum.</l>
+               <l>Nec rebus ſervare modum, nec jura fidemque</l>
+               <l>Quaerit at inſidiis, vel vi ſuperare ſit unum.</l>
+               <l>Conjecit poſtquam RICHELAEI ſemina Erinnys</l>
+               <l>Intuleritque odium populis &amp; Regibus atrum;</l>
+               <l>Antequam in Auſtriacos fera publica bella movebat,</l>
+               <l>HIC LOTHORINGOS, mox alioſqueſubegit amicos,</l>
+               <l>Fancorum &amp; flores ſtatuit prope flumina Rheni:</l>
+               <l>Praeterea Belgis, &amp; Taraconenſibus iſte</l>
+               <l>Seditionis clam tranſmiſit turpe venenum,</l>
+               <l>Sanguine quo nimium ſudavit Iberia fuſo.</l>
+               <l>Hiſce modis, tam grande nefas, diviſio facta eſt</l>
+               <l>Chriſticolas inter; noſtriſque doloribus addit</l>
+               <l>Calviniſtarum rabies inimica dolorem.</l>
+               <l>Tu ſuccurre, Parens, firmata pace per Orbem;</l>
+               <l>Saeva nec incedat tantis veſtita triumphis</l>
+               <l>TURCIA, jacturam demum reparare juvabit.</l>
+            </sp>
+            <stage>
+               <pb n="14" facs="tcp:44734:8" rendition="simple:additions"/>
+               <hi>Alloquitur</hi>
+            </stage>
+            <sp>
+               <speaker>VENETIA.</speaker>
+               <l>SAcra Parens, noſtros liceat narrare labores,</l>
+               <l>Quos tam fama canit, quam claris gloria ſubſtat.</l>
+               <l>Armipotens poſtquam caeleſtia ſidera adivit</l>
+               <l>CASTRIOTES, Gentemque ſuam commiſit, &amp; arma</l>
+               <l>Tutelae noſtrae, quae bella cruenta peregi</l>
+               <l>Contra OTOMANOS tunc toties peritura periclis?</l>
+               <l>Nec ſiſto; inſignem ſtatuo ſuper aequora claſſem,</l>
+               <l>Cui vaſtas hodie Neptunus ſubjicit undas,</l>
+               <l>Quam fugiunt Turcae veliſque, viriſque potentem.</l>
+               <l>Inſtruo per terras validas animoſa cohortes,</l>
+               <l>Quarum ſaepe madet pugnando ſanguine tellus,</l>
+               <l>Dum campis certant fortes, vel maenia ſervant</l>
+               <l>Praevaluere mihi, verum eſt, innimica CANAEAE</l>
+               <l>Agmina, ſed rurſum vici certamine CLISSAM:</l>
+               <l>Et majora, Parens, alto a Mavorte valerem,</l>
+               <l>Alma at opes veſtras noſtris concede ſecundas,</l>
+               <l>Praeſtet &amp; auxilium clariſſima quaeque ſororum:</l>
+               <l>Illud opus praeluſtre decus, memorabile munus,</l>
+               <l>Militiae tantae conſtaret fama perennis.</l>
+               <l>Ut foret hoc, credo; ni multas Francia Gentes</l>
+               <l>Plena dolo, nimium implacidas ad bella citaret,</l>
+               <l>Ex queis ſola ſuam fabricaret maxima molem</l>
+               <l>Manſuram Imperii, mundi dum terminet aevum.</l>
+               <l>Poſſidet iſte metus, vel ſaltem conſcia cura</l>
+               <l>Italiae Dominos; poſſint, qui &amp; plurima vellent</l>
+               <l>Ferre, mihi &amp; conferre, animis, opibuſque parati,</l>
+               <l>At fiat melius Genitrix moderamine veſtro,</l>
+               <l>Sit contenta ſuits bellatrix Francia terris;</l>
+               <l>Veſtra MAHOMETI &amp; confringant bracchia nervos.</l>
+            </sp>
+            <stage>
+               <pb n="15" facs="tcp:44734:8"/>
+               <hi>Alloquitur</hi>
+            </stage>
+            <sp>
+               <speaker>HOLLANDIA.</speaker>
+               <l>ARma, viroſque, Parens, &amp; dicere bella tot annis</l>
+               <l>Si coner, mentem veſtras aureſque fatigem,</l>
+               <l>Forſan &amp; ingratum munus videatur amicis.</l>
+               <l>At veſtro auditu referam digniſſima quaedam,</l>
+               <l>Quae (modo culpa fuit) ſincera piacula habentur</l>
+               <l>Germanas inter plures per faecula noſtra.</l>
+               <l>Cum quondam Imperii ſtatuiſſet Iberia ſecum</l>
+               <l>Ignoti, &amp; noti circumvoluentis ad aſtra</l>
+               <l>(FLUSquE ULTRA) immenſam molem complere trophaeis:</l>
+               <l>Tunc Fabricata fui Borealis machina ad uſum</l>
+               <l>Hujus, me nimiumque dolis torquebat iniquis.</l>
+               <l>Dejeci inde jugum Hiſpanum, certavit at illa</l>
+               <l>Armis multoties noſtrates ſubdare Sceptro:</l>
+               <l>Martis inane fuit, tantis agitata periclis</l>
+               <l>Hiſpanos, Belgas; Germanos, inter &amp; Anglos</l>
+               <l>(A quibus auxilium) fateor me ſemina belli</l>
+               <l>Saepius inceciſſe, &amp; eis alimenta dediſſe.</l>
+               <l>Hiſce modis geſſi tot praelia laeta tot annis</l>
+               <l>Victrix, &amp; vaſtum luſtravi claſſibus Orbem.</l>
+               <l>His mihi complures Indos utroſque ſubegi</l>
+               <l>Auſpiciis Bellona tuis, his fama potentem</l>
+               <l>Undique declarat; nec deſit Regia pompa,</l>
+               <l>Dummodo nomen abeſt, titulo non ornor inani:</l>
+               <l>Fiam mercatrix ſaltem ditiſſima mundi,</l>
+               <l>Sufficit &amp; demum nos jam ſubſiſtere nobis.</l>
+            </sp>
+            <sp>
+               <speaker>EUROPA</speaker>
+               <stage>Loquitur.</stage>
+               <l>SUfficit! audivi! praeclarae ſiſtite natae,</l>
+               <l>Reſpicite &amp; veſtrum, ſi non Genetricis honorem:</l>
+               <l>Parcant fata diu, ne extinctum ventris habebo</l>
+               <l>
+                  <pb n="16" facs="tcp:44734:9" rendition="simple:additions"/>Divino inſignem, &amp; florentem munere fructum?</l>
+               <l>Inquas deduxit diſcordia dira ruinas?</l>
+               <l>Turcia ſaeva furens in vos, &amp; barbarus Afer</l>
+               <l>Non raptis ſolum ſpoliis onerantur opimis,</l>
+               <l>Quotidie at certant turmis ſubducere terras.</l>
+               <l>Agminibus Natae conſurgite, copia praeſtat</l>
+               <l>(Unio ſola deeſt) immanes vincere Gentes.</l>
+               <l>Aſt tua defecit pietas, tua, Francia, culpa eſt;</l>
+               <l>Ut tua culpa fuit, dominans Hiſpania quondam,</l>
+               <l>Quod non conjungat cunctas concordia dextras:</l>
+               <l>Error ubique patet: caeleſtia dona ſuperſunt,</l>
+               <l>Queis ſitis bello invictae, queis pace beatae;</l>
+               <l>His date conamen validum, his attollite palmas;</l>
+               <l>Quin ſi fata velint, natae, ſit ſeſſio noſtra</l>
+               <l>Candida, pacificis tandem finita triumphis.</l>
+            </sp>
+            <stage>AD MAONAM BRITANNIAM PERORAN<g ref="char:EOLhyphen"/>tem <hi>Votum Syllepticum.</hi>
+            </stage>
+            <sp>
+               <l>ARtificem tandem tantorum effare dolorum,</l>
+               <l>Cujus opus tua ſunt quae ſentis vulnera (Mater)</l>
+               <l>Bellum, Barbaries, Rabies, ſitibunda cruoris</l>
+               <l>Ingluvies, miſeris inſultans ſaeva Tyrannis</l>
+               <l>Nullaque Relligio, tamen omnes Relligiones.</l>
+               <l>Haec opera unius (ſed vis reticere) Sinonis</l>
+               <l>Qui innumeros Marios, Syllas, Cinnas Carilinas</l>
+               <l>Alter Equus veluti Trojanus continet alvo</l>
+               <l>Hunc veſtra o ſuperi, feriant malè ſulmina, in iſſum</l>
+               <l>Caelicolae proceres veſtrum convertite ferrum</l>
+               <l>Sic Britonum tellus rediviva pace vigebit</l>
+               <l>Quzque diu noſtras aedes Aſtraea reliquit</l>
+               <l>Jura dabit populis ſolitum conſcenſa Tribunal,</l>
+               <l>Antiquiſque ſuis gaudebit ſedibus Hoſpes</l>
+               <l>Relligio nova, quaeque exharrent Templa reviſent</l>
+               <l>Laeti Chriſticolae; tutus Mercator ad Indos</l>
+               <l>Proſpera vela dabit tutus Merrator ab Indis</l>
+               <l>Importabit opes: Londinum denique pleno</l>
+               <l>(Et bene promeruit) ditabit COPIA CORNU.</l>
+            </sp>
+            <closer>
+               <signed>A. R.</signed>
+            </closer>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:44734:9"/>
+         </div>
+      </body>
+   </text>
+</TEI>
